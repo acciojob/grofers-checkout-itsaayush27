@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Grofers Checkout</title>
 </head>
-
 <body>
-    <!-- the entire body must be written by student -->
-    <div>
-    <input type="text" id="itemInput" placeholder="Enter item">
-    <input type="number" id="priceInput" placeholder="Enter price">
-    <button id="addBtn">Add Item</button>
-  </div>
-
-  <!-- Table -->
-  <table id="shopTable">
-    <caption>Item List</caption>
+  <table border="1" style="width:50%; text-align:center;">
+    <caption><b>Grocery List</b></caption>
     <tr>
       <th>Item</th>
       <th>Price (₹)</th>
     </tr>
+    <tr>
+      <td class="item">Tea</td>
+      <td class="prices">50</td>
+    </tr>
+    <tr>
+      <td class="item">Coffee</td>
+      <td class="prices">70</td>
+    </tr>
+    <tr>
+      <td class="item">Biscuits</td>
+      <td class="prices">100</td>
+    </tr>
+    <tr>
+      <td class="item">Rice</td>
+      <td class="prices">130</td>
+    </tr>
+    <tr>
+      <td class="item">Milk</td>
+      <td class="prices">50</td>
+    </tr>
   </table>
 
-  <!-- Button to calculate total -->
   <button id="getSumBtn">Get Total Price</button>
-    <script type="text/javascript" src="./script.js">
-</script>
 
+  <script src="script.js"></script>
 </body>
-
 </html>
